@@ -1,0 +1,16 @@
+.nav{
+    background-color: lightpink;
+    ul{
+        li{
+            a{
+                color: #fff;
+            }
+            &:hover{
+                background-color: lightcoral;
+                a{
+                    color: skyblue;
+                }
+            }
+        }
+    }
+}
